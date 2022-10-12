@@ -9,7 +9,10 @@ import SwiftUI
 
 struct PlanView: View {
     var body: some View {
-        Text("Plan view")
+        List {
+            PlanViewItem(medicationName: "medication 1")
+            PlanViewItem(medicationName: "medication 2")
+        }
     }
 }
 
