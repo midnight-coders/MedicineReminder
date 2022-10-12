@@ -13,7 +13,7 @@
 		E630040928F6858000610AAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E630040828F6858000610AAD /* Preview Assets.xcassets */; };
 		E630040B28F6858000610AAD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630040A28F6858000610AAD /* Persistence.swift */; };
 		E630040E28F6858000610AAD /* MedicineReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E630040C28F6858000610AAD /* MedicineReminder.xcdatamodeld */; };
-		E630041628F687DA00610AAD /* ContentView-original.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630041528F687DA00610AAD /* ContentView-original.swift */; };
+		E630041628F687DA00610AAD /* ContentViewOriginal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630041528F687DA00610AAD /* ContentViewOriginal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		E630040828F6858000610AAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E630040A28F6858000610AAD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E630040D28F6858000610AAD /* MedicineReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicineReminder.xcdatamodel; sourceTree = "<group>"; };
-		E630041528F687DA00610AAD /* ContentView-original.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-original.swift"; sourceTree = "<group>"; };
+		E630041528F687DA00610AAD /* ContentViewOriginal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewOriginal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				E630040328F6857F00610AAD /* ContentView.swift */,
-				E630041528F687DA00610AAD /* ContentView-original.swift */,
+				E630041528F687DA00610AAD /* ContentViewOriginal.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E630040B28F6858000610AAD /* Persistence.swift in Sources */,
-				E630041628F687DA00610AAD /* ContentView-original.swift in Sources */,
+				E630041628F687DA00610AAD /* ContentViewOriginal.swift in Sources */,
 				E630040E28F6858000610AAD /* MedicineReminder.xcdatamodeld in Sources */,
 				E630040428F6857F00610AAD /* ContentView.swift in Sources */,
 				E630040228F6857F00610AAD /* MedicineReminderApp.swift in Sources */,
