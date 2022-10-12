@@ -11,7 +11,22 @@ import CoreData
 struct ContentView: View {
     
     var body: some View {
-        Text("Hello world")
+        TabView {
+            PlanView()
+                .tabItem {
+                    Label("Plan", systemImage: "list.dash")
+                }
+            
+            ScheduleView()
+                .tabItem {
+                    Label("Schedule", systemImage: "list.dash")
+                }
+            
+            MedicationView()
+                .tabItem {
+                    Label("Medications", systemImage: "list.dash")
+                }
+        }
     }
 }
 
